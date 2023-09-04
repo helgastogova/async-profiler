@@ -1,0 +1,30 @@
+.table {
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.row:not(:last-child) {
+  box-shadow: 0px -1px 0px 0px var(--border-5) inset;
+}
+
+.cell {
+  flex: 1;
+  display: table-cell;
+  padding: 16px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
